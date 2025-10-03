@@ -46,7 +46,7 @@ spec:
         - name: GEMINI_URL
           value: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
         - name: GEMINI_KEY
-          value: AIzaSyAqmbzFmMQNJcCfEkH1XdeSgrSsF6uFICs
+          value: AIzaSyASsF6uFICs
         - name: AI_MODEL
           value: mistralai/mistral-7b-instruct:free
         - name: AI_URL
@@ -74,5 +74,5 @@ spec:
 
 # kubectl create secret docker-registry my-dockerhub-secret -n microsvc \
 # --docker-username=datnd2711 \
-# --docker-password=dck \
+# --docker-passwo \
 # --docker-server=https://hub.docker.com/ 
